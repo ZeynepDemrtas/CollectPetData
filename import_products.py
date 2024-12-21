@@ -6,7 +6,7 @@ def connect_database():
     return mysql.connector.connect(
     host="localhost",
     user="root",
-    password="8snE7G5ZuB") 
+    password="your_password") 
 
 def read_file(file_name):
     with open(file_name, 'r') as file:
